@@ -26,4 +26,5 @@ urlpatterns = [
     path('post_example', testapp.views.post_example),
     path('gallery', testapp.views.gallery),
     path('gallery/<photo>', testapp.views.gallery_photo),
+    path('calculadora/<numero1>/<operacion>/<numero2>', testapp.views.calculadora),
 ]
